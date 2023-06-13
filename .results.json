@@ -1,0 +1,119 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 6,
+    "passes": 4,
+    "pending": 0,
+    "failures": 2,
+    "start": "2023-06-13T10:29:01.472Z",
+    "end": "2023-06-13T10:29:02.589Z",
+    "duration": 1117
+  },
+  "tests": [
+    {
+      "title": "is set as Scuber",
+      "fullTitle": "index.js companyName is set as Scuber",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is defined as a const",
+      "fullTitle": "index.js companyName is defined as a const",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is declared as equal to Chelsea",
+      "fullTitle": "index.js mostProfitableNeighborhood is declared as equal to Chelsea",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: mostProfitableNeighborhood is not defined\n    at Context.<anonymous> (test/indexTest.js:19:14)\n    at process.processImmediate (node:internal/timers:478:21)",
+        "message": "mostProfitableNeighborhood is not defined"
+      }
+    },
+    {
+      "title": "is defined using let",
+      "fullTitle": "index.js mostProfitableNeighborhood is defined using let",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "Expected mostProfitableNeighborhood to be defined using let: expected '// // Code your solution in this file!\\n//  let age =12;\\n\\n// if (age >= 18) { \\n//     console.log(\"You are allowed to vote\") ;\\n// }else{\\n//     console.log (\"You need to be above 18 to vote.\"\\n// }\\n\\n// let message = (age >18)\\n\\n\\nconst companyName = \\'Scuber\\';\\n   let mostProfitableNeighbourhood = \\'chelsea\\'\\n   let companyCeo = \\'Susan Smith\\'\\n' to match /let mostProfitableNeighborhood/",
+        "showDiff": false,
+        "actual": "// // Code your solution in this file!\n//  let age =12;\n\n// if (age >= 18) { \n//     console.log(\"You are allowed to vote\") ;\n// }else{\n//     console.log (\"You need to be above 18 to vote.\"\n// }\n\n// let message = (age >18)\n\n\nconst companyName = 'Scuber';\n   let mostProfitableNeighbourhood = 'chelsea'\n   let companyCeo = 'Susan Smith'\n",
+        "stack": "AssertionError: Expected mostProfitableNeighborhood to be defined using let: expected '// // Code your solution in this file!\\n//  let age =12;\\n\\n// if (age >= 18) { \\n//     console.log(\"You are allowed to vote\") ;\\n// }else{\\n//     console.log (\"You need to be above 18 to vote.\"\\n// }\\n\\n// let message = (age >18)\\n\\n\\nconst companyName = \\'Scuber\\';\\n   let mostProfitableNeighbourhood = \\'chelsea\\'\\n   let companyCeo = \\'Susan Smith\\'\\n' to match /let mostProfitableNeighborhood/\n    at Context.<anonymous> (test/indexTest.js:23:21)\n    at process.processImmediate (node:internal/timers:478:21)"
+      }
+    },
+    {
+      "title": "is declared as equal to Susan Smith",
+      "fullTitle": "index.js companyCeo is declared as equal to Susan Smith",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is defined using let",
+      "fullTitle": "index.js companyCeo is defined using let",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "is declared as equal to Chelsea",
+      "fullTitle": "index.js mostProfitableNeighborhood is declared as equal to Chelsea",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: mostProfitableNeighborhood is not defined\n    at Context.<anonymous> (test/indexTest.js:19:14)\n    at process.processImmediate (node:internal/timers:478:21)",
+        "message": "mostProfitableNeighborhood is not defined"
+      }
+    },
+    {
+      "title": "is defined using let",
+      "fullTitle": "index.js mostProfitableNeighborhood is defined using let",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "Expected mostProfitableNeighborhood to be defined using let: expected '// // Code your solution in this file!\\n//  let age =12;\\n\\n// if (age >= 18) { \\n//     console.log(\"You are allowed to vote\") ;\\n// }else{\\n//     console.log (\"You need to be above 18 to vote.\"\\n// }\\n\\n// let message = (age >18)\\n\\n\\nconst companyName = \\'Scuber\\';\\n   let mostProfitableNeighbourhood = \\'chelsea\\'\\n   let companyCeo = \\'Susan Smith\\'\\n' to match /let mostProfitableNeighborhood/",
+        "showDiff": false,
+        "actual": "// // Code your solution in this file!\n//  let age =12;\n\n// if (age >= 18) { \n//     console.log(\"You are allowed to vote\") ;\n// }else{\n//     console.log (\"You need to be above 18 to vote.\"\n// }\n\n// let message = (age >18)\n\n\nconst companyName = 'Scuber';\n   let mostProfitableNeighbourhood = 'chelsea'\n   let companyCeo = 'Susan Smith'\n",
+        "stack": "AssertionError: Expected mostProfitableNeighborhood to be defined using let: expected '// // Code your solution in this file!\\n//  let age =12;\\n\\n// if (age >= 18) { \\n//     console.log(\"You are allowed to vote\") ;\\n// }else{\\n//     console.log (\"You need to be above 18 to vote.\"\\n// }\\n\\n// let message = (age >18)\\n\\n\\nconst companyName = \\'Scuber\\';\\n   let mostProfitableNeighbourhood = \\'chelsea\\'\\n   let companyCeo = \\'Susan Smith\\'\\n' to match /let mostProfitableNeighborhood/\n    at Context.<anonymous> (test/indexTest.js:23:21)\n    at process.processImmediate (node:internal/timers:478:21)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "is set as Scuber",
+      "fullTitle": "index.js companyName is set as Scuber",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is defined as a const",
+      "fullTitle": "index.js companyName is defined as a const",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is declared as equal to Susan Smith",
+      "fullTitle": "index.js companyCeo is declared as equal to Susan Smith",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is defined using let",
+      "fullTitle": "index.js companyCeo is defined using let",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
